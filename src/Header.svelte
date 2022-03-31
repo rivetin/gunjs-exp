@@ -8,7 +8,7 @@
 </script>
 
 <header>
-  <h1>ThndanChat</h1>
+  <h1>SuperChat</h1>
   {#if $username}
     <div class="user-bio">
       <span>Hello <strong>{$username}</strong></span>
