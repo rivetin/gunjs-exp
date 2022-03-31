@@ -8,10 +8,10 @@
 </script>
 
 <header>
-  <h1>SuperChat</h1>
+  <h1>SuperChat v0.2</h1>
   {#if $username}
     <div class="user-bio">
-      <span>Hello <strong>{$username}</strong></span>
+      <span>Hey <strong>{$username}</strong></span>
       <img
         src={`https://avatars.dicebear.com/api/initials/${$username}.svg`}
         alt="avatar"
